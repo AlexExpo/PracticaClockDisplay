@@ -27,6 +27,10 @@ public class ClockDisplay
             hora.increment();
         }
     }
+    public String mostrarHora()
+    {
+        return hora.getDisplayValue() + ":" + minuto.getDisplayValue();
+    }
 
     
 }
